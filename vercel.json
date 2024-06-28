@@ -1,15 +1,3 @@
 {
-  "buildCommand": "yarn rw build",
-  "functions": {
-    "api/src/functions/tester1/tester1.*": {
-      "memory": 256,
-      "runtime": "@vercel/redwood@2.0.7",
-      "maxDuration": 20
-    },
-    "api/src/functions/graphql.*": {
-      "memory": 512,
-      "runtime":"@vercel/redwood@2.0.7",
-      "maxDuration": 30
-    }
-  }
+  "buildCommand": "yarn rw build"
 }

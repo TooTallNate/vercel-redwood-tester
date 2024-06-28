@@ -1,3 +1,8 @@
+export const config = {
+  memory: 256,
+  maxDuration: 20,
+}
+
 import type { APIGatewayEvent, Context } from 'aws-lambda'
 
 import { logger } from 'src/lib/logger'

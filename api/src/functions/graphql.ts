@@ -1,3 +1,8 @@
+export const config = {
+  memory: 512,
+  maxDuration: 30,
+}
+
 import { createGraphQLHandler } from '@redwoodjs/graphql-server'
 
 import directives from 'src/directives/**/*.{js,ts}'
